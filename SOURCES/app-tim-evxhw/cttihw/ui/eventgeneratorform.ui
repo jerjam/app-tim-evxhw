@@ -1,0 +1,896 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>EventGeneratorForm</class>
+<widget class="QMainWindow">
+    <property name="name">
+        <cstring>EventGeneratorForm</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>795</width>
+            <height>520</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Event Generator</string>
+    </property>
+    <hbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout9</cstring>
+            </property>
+            <vbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QGroupBox">
+                    <property name="name">
+                        <cstring>groupBox4</cstring>
+                    </property>
+                    <property name="title">
+                        <string>MXC</string>
+                    </property>
+                    <grid>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QTable" row="0" column="0">
+                            <column>
+                                <property name="text">
+                                    <string>Prescaler</string>
+                                </property>
+                            </column>
+                            <column>
+                                <property name="text">
+                                    <string>Trigger</string>
+                                </property>
+                            </column>
+                            <row>
+                                <property name="text">
+                                    <string>0</string>
+                                </property>
+                            </row>
+                            <row>
+                                <property name="text">
+                                    <string>1</string>
+                                </property>
+                            </row>
+                            <row>
+                                <property name="text">
+                                    <string>2</string>
+                                </property>
+                            </row>
+                            <row>
+                                <property name="text">
+                                    <string>3</string>
+                                </property>
+                            </row>
+                            <row>
+                                <property name="text">
+                                    <string>4</string>
+                                </property>
+                            </row>
+                            <row>
+                                <property name="text">
+                                    <string>5</string>
+                                </property>
+                            </row>
+                            <row>
+                                <property name="text">
+                                    <string>6</string>
+                                </property>
+                            </row>
+                            <row>
+                                <property name="text">
+                                    <string>7</string>
+                                </property>
+                            </row>
+                            <property name="name">
+                                <cstring>mxcTable</cstring>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy>
+                                    <hsizetype>1</hsizetype>
+                                    <vsizetype>7</vsizetype>
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="numRows">
+                                <number>8</number>
+                            </property>
+                            <property name="numCols">
+                                <number>2</number>
+                            </property>
+                        </widget>
+                    </grid>
+                </widget>
+                <widget class="QGroupBox">
+                    <property name="name">
+                        <cstring>groupBox6</cstring>
+                    </property>
+                    <property name="title">
+                        <string>Trigger Enable / Event Sent</string>
+                    </property>
+                    <grid>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <property name="spacing">
+                            <number>0</number>
+                        </property>
+                        <widget class="QPushButton" row="1" column="0" rowspan="2" colspan="1">
+                            <property name="name">
+                                <cstring>enev_1</cstring>
+                            </property>
+                            <property name="text">
+                                <string>tr1</string>
+                            </property>
+                            <property name="toggleButton">
+                                <bool>true</bool>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton" row="3" column="0">
+                            <property name="name">
+                                <cstring>enev_2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>tr2</string>
+                            </property>
+                            <property name="toggleButton">
+                                <bool>true</bool>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton" row="6" column="0">
+                            <property name="name">
+                                <cstring>enev_5</cstring>
+                            </property>
+                            <property name="text">
+                                <string>tr5</string>
+                            </property>
+                            <property name="toggleButton">
+                                <bool>true</bool>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton" row="7" column="0">
+                            <property name="name">
+                                <cstring>enev_6</cstring>
+                            </property>
+                            <property name="text">
+                                <string>tr6</string>
+                            </property>
+                            <property name="toggleButton">
+                                <bool>true</bool>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton" row="8" column="0">
+                            <property name="name">
+                                <cstring>enev_7</cstring>
+                            </property>
+                            <property name="text">
+                                <string>tr7</string>
+                            </property>
+                            <property name="toggleButton">
+                                <bool>true</bool>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton" row="5" column="0">
+                            <property name="name">
+                                <cstring>enev_4</cstring>
+                            </property>
+                            <property name="text">
+                                <string>tr4</string>
+                            </property>
+                            <property name="toggleButton">
+                                <bool>true</bool>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton" row="4" column="0">
+                            <property name="name">
+                                <cstring>enev_3</cstring>
+                            </property>
+                            <property name="text">
+                                <string>tr3</string>
+                            </property>
+                            <property name="toggleButton">
+                                <bool>true</bool>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton" row="0" column="0">
+                            <property name="name">
+                                <cstring>enev_0</cstring>
+                            </property>
+                            <property name="text">
+                                <string>tr0</string>
+                            </property>
+                            <property name="toggleButton">
+                                <bool>true</bool>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="2" column="2">
+                            <property name="name">
+                                <cstring>trigev_1</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="3" column="2">
+                            <property name="name">
+                                <cstring>trigev_2</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="4" column="2">
+                            <property name="name">
+                                <cstring>trigev_3</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="5" column="2">
+                            <property name="name">
+                                <cstring>trigev_4</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="6" column="2">
+                            <property name="name">
+                                <cstring>trigev_5</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="7" column="2">
+                            <property name="name">
+                                <cstring>trigev_6</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="8" column="2">
+                            <property name="name">
+                                <cstring>trigev_7</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="0" column="2">
+                            <property name="name">
+                                <cstring>trigev_0</cstring>
+                            </property>
+                        </widget>
+                    </grid>
+                </widget>
+                <widget class="QGroupBox">
+                    <property name="name">
+                        <cstring>groupBox9</cstring>
+                    </property>
+                    <property name="title">
+                        <string>Clock</string>
+                    </property>
+                    <grid>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel" row="0" column="0">
+                            <property name="name">
+                                <cstring>textLabel2_2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>tipus</string>
+                            </property>
+                            <property name="buddy" stdset="0">
+                                <cstring>comboBox1</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox" row="0" column="1">
+                            <property name="name">
+                                <cstring>ckMode</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox" row="1" column="1">
+                            <property name="name">
+                                <cstring>ckSynth</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="1" column="0">
+                            <property name="name">
+                                <cstring>textLabel4</cstring>
+                            </property>
+                            <property name="text">
+                                <string>frac synth</string>
+                            </property>
+                        </widget>
+                    </grid>
+                </widget>
+            </vbox>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout8</cstring>
+            </property>
+            <vbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QGroupBox">
+                    <property name="name">
+                        <cstring>gbDBus</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>0</hsizetype>
+                            <vsizetype>5</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                        <size>
+                            <width>250</width>
+                            <height>0</height>
+                        </size>
+                    </property>
+                    <property name="title">
+                        <string>Distrib Bus</string>
+                    </property>
+                    <vbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                    </vbox>
+                </widget>
+                <widget class="QGroupBox">
+                    <property name="name">
+                        <cstring>groupBox3</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>5</hsizetype>
+                            <vsizetype>4</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="title">
+                        <string>AC</string>
+                    </property>
+                    <grid>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel" row="1" column="0">
+                            <property name="name">
+                                <cstring>textLabel2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>delay</string>
+                            </property>
+                            <property name="buddy" stdset="0">
+                                <cstring>lineEdit5</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="0" column="0">
+                            <property name="name">
+                                <cstring>textLabel1</cstring>
+                            </property>
+                            <property name="text">
+                                <string>prescaler</string>
+                            </property>
+                            <property name="buddy" stdset="0">
+                                <cstring>lineEdit4</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QCheckBox" row="3" column="0" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>acSyncMXC7</cstring>
+                            </property>
+                            <property name="text">
+                                <string>SYNCMXC7</string>
+                            </property>
+                        </widget>
+                        <widget class="QCheckBox" row="3" column="2">
+                            <property name="name">
+                                <cstring>acByPass</cstring>
+                            </property>
+                            <property name="text">
+                                <string>BYPASS</string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="1" column="1" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>acDelay</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="0" column="1" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>acPrescaler</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="2" column="0">
+                            <property name="name">
+                                <cstring>textLabel1_3</cstring>
+                            </property>
+                            <property name="text">
+                                <string>trigger</string>
+                            </property>
+                            <property name="buddy" stdset="0">
+                                <cstring>acTrigger</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox" row="2" column="1" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>acTrigger</cstring>
+                            </property>
+                        </widget>
+                    </grid>
+                </widget>
+                <widget class="QGroupBox">
+                    <property name="name">
+                        <cstring>groupBox9_2</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>1</hsizetype>
+                            <vsizetype>4</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="title">
+                        <string>Front Panel Univ In</string>
+                    </property>
+                    <grid>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QComboBox" row="1" column="0">
+                            <property name="name">
+                                <cstring>fp0</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox" row="1" column="1">
+                            <property name="name">
+                                <cstring>fp1</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox" row="2" column="0">
+                            <property name="name">
+                                <cstring>fp2</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox" row="2" column="1">
+                            <property name="name">
+                                <cstring>fp3</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox" row="3" column="0">
+                            <property name="name">
+                                <cstring>fp4</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox" row="3" column="1">
+                            <property name="name">
+                                <cstring>fp5</cstring>
+                            </property>
+                        </widget>
+
+                        <widget class="QComboBox" row="4" column="0">
+                            <property name="name">
+                                <cstring>fp6</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox" row="4" column="1">
+                            <property name="name">
+                                <cstring>fp7</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox" row="5" column="0">
+                            <property name="name">
+                                <cstring>fp8</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox" row="5" column="1">
+                            <property name="name">
+                                <cstring>fp9</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox" row="6" column="0">
+                            <property name="name">
+                                <cstring>fp10</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox" row="6" column="1">
+                            <property name="name">
+                                <cstring>fp11</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox" row="7" column="0">
+                            <property name="name">
+                                <cstring>fp12</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox" row="7" column="1">
+                            <property name="name">
+                                <cstring>fp13</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox" row="8" column="0">
+                            <property name="name">
+                                <cstring>fp14</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox" row="8" column="1">
+                            <property name="name">
+                                <cstring>fp15</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox" row="9" column="0">
+                            <property name="name">
+                                <cstring>fp16</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox" row="9" column="1">
+                            <property name="name">
+                                <cstring>fp17</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox" row="10" column="0">
+                            <property name="name">
+                                <cstring>fp18</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox" row="10" column="1">
+                            <property name="name">
+                                <cstring>fp19</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="0" column="0" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>textLabel2_3</cstring>
+                            </property>
+                            <property name="text">
+                                <string>0 (dbus, trig) .. 1.. 2</string>
+                            </property>
+                        </widget>
+                    </grid>
+                </widget>
+            </vbox>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout11</cstring>
+            </property>
+            <vbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QGroupBox">
+                    <property name="name">
+                        <cstring>groupBox8</cstring>
+                    </property>
+                    <property name="enabled">
+                        <bool>false</bool>
+                    </property>
+                    <property name="title">
+                        <string>Data Buffer</string>
+                    </property>
+                    <grid>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QTable" row="2" column="0" rowspan="1" colspan="3">
+                            <row>
+                                <property name="text">
+                                    <string>0</string>
+                                </property>
+                            </row>
+                            <property name="name">
+                                <cstring>dataBufData</cstring>
+                            </property>
+                            <property name="numRows">
+                                <number>1</number>
+                            </property>
+                            <property name="numCols">
+                                <number>1</number>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="1" column="2">
+                            <property name="name">
+                                <cstring>dataBufSize</cstring>
+                            </property>
+                            <property name="text">
+                                <string>4</string>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="1" column="1">
+                            <property name="name">
+                                <cstring>textLabel1_2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>size</string>
+                            </property>
+                            <property name="buddy" stdset="0">
+                                <cstring>lineEdit8</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QCheckBox" row="0" column="0" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>dataBufEnable</cstring>
+                            </property>
+                            <property name="text">
+                                <string>enable dbuf</string>
+                            </property>
+                        </widget>
+                        <widget class="QCheckBox" row="1" column="0">
+                            <property name="name">
+                                <cstring>dataBuffTrigger</cstring>
+                            </property>
+                            <property name="text">
+                                <string>trigger</string>
+                            </property>
+                        </widget>
+                        <widget class="QCheckBox" row="0" column="2">
+                            <property name="name">
+                                <cstring>dataBufMode</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Mode</string>
+                            </property>
+                        </widget>
+                    </grid>
+                </widget>
+                <widget class="QGroupBox">
+                    <property name="name">
+                        <cstring>groupBox7</cstring>
+                    </property>
+                    <property name="title">
+                        <string>Actions</string>
+                    </property>
+                    <vbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLayoutWidget">
+                            <property name="name">
+                                <cstring>layout7</cstring>
+                            </property>
+                            <hbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <widget class="QPushButton">
+                                    <property name="name">
+                                        <cstring>triggerSeq1</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>Tr Seq 1</string>
+                                    </property>
+                                    <property name="toolTip" stdset="0">
+                                        <string>Trigger Seq 1</string>
+                                    </property>
+                                </widget>
+                                <widget class="QPushButton">
+                                    <property name="name">
+                                        <cstring>triggerSeq2</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>Tr Seq 2</string>
+                                    </property>
+                                    <property name="toolTip" stdset="0">
+                                        <string>Trigger Sequence 2</string>
+                                    </property>
+                                </widget>
+                            </hbox>
+                        </widget>
+                        <widget class="QLayoutWidget">
+                            <property name="name">
+                                <cstring>layout11</cstring>
+                            </property>
+                            <hbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <widget class="QLineEdit">
+                                    <property name="name">
+                                        <cstring>swEvent</cstring>
+                                    </property>
+                                </widget>
+                                <widget class="QPushButton">
+                                    <property name="name">
+                                        <cstring>sendSwEvent</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>Send SW event:</string>
+                                    </property>
+                                </widget>
+                            </hbox>
+                        </widget>
+                    </vbox>
+                </widget>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout10</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QCheckBox">
+                            <property name="name">
+                                <cstring>masterEnable</cstring>
+                            </property>
+                            <property name="text">
+                                <string>enable</string>
+                            </property>
+                        </widget>
+                        <widget class="QCheckBox">
+                            <property name="name">
+                                <cstring>swEventEnable</cstring>
+                            </property>
+                            <property name="text">
+                                <string>SW event enable</string>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout12</cstring>
+                    </property>
+                    <grid>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QPushButton" row="0" column="0">
+                            <property name="name">
+                                <cstring>editSeq1</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Edit Seq 1</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton" row="0" column="1">
+                            <property name="name">
+                                <cstring>loadConfig</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Load</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton" row="1" column="1">
+                            <property name="name">
+                                <cstring>saveConfig</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Save</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton" row="1" column="0">
+                            <property name="name">
+                                <cstring>editSeq2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Edit Seq 2</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton" row="0" column="2">
+                            <property name="name">
+                                <cstring>restoreConfig</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Restore</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton" row="1" column="2">
+                            <property name="name">
+                                <cstring>applyConfig</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Apply</string>
+                            </property>
+                        </widget>
+                    </grid>
+                </widget>
+            </vbox>
+        </widget>
+    </hbox>
+</widget>
+<toolbars>
+</toolbars>
+<connections>
+    <connection>
+        <sender>restoreConfig</sender>
+        <signal>clicked()</signal>
+        <receiver>EventGeneratorForm</receiver>
+        <slot>onRestoreConfig()</slot>
+    </connection>
+    <connection>
+        <sender>applyConfig</sender>
+        <signal>clicked()</signal>
+        <receiver>EventGeneratorForm</receiver>
+        <slot>onApplyConfig()</slot>
+    </connection>
+    <connection>
+        <sender>loadConfig</sender>
+        <signal>clicked()</signal>
+        <receiver>EventGeneratorForm</receiver>
+        <slot>loadConfig_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>saveConfig</sender>
+        <signal>clicked()</signal>
+        <receiver>EventGeneratorForm</receiver>
+        <slot>saveConfig_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>dataBufSize</sender>
+        <signal>returnPressed()</signal>
+        <receiver>EventGeneratorForm</receiver>
+        <slot>dataBufSize_returnPressed()</slot>
+    </connection>
+    <connection>
+        <sender>dataBufSize</sender>
+        <signal>lostFocus()</signal>
+        <receiver>EventGeneratorForm</receiver>
+        <slot>dataBufSize_returnPressed()</slot>
+    </connection>
+    <connection>
+        <sender>editSeq1</sender>
+        <signal>clicked()</signal>
+        <receiver>EventGeneratorForm</receiver>
+        <slot>editSeq1_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>editSeq2</sender>
+        <signal>clicked()</signal>
+        <receiver>EventGeneratorForm</receiver>
+        <slot>editSeq2_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>sendSwEvent</sender>
+        <signal>clicked()</signal>
+        <receiver>EventGeneratorForm</receiver>
+        <slot>sendSwEvent_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>mxcTable</sender>
+        <signal>valueChanged(int,int)</signal>
+        <receiver>EventGeneratorForm</receiver>
+        <slot>mxcTable_valueChanged(int,int)</slot>
+    </connection>
+    <connection>
+        <sender>triggerSeq2</sender>
+        <signal>clicked()</signal>
+        <receiver>EventGeneratorForm</receiver>
+        <slot>triggerSeq2_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>triggerSeq1</sender>
+        <signal>clicked()</signal>
+        <receiver>EventGeneratorForm</receiver>
+        <slot>triggerSeq1_clicked()</slot>
+    </connection>
+</connections>
+<includes>
+    <include location="local" impldecl="in implementation">eventgeneratorform.ui.h</include>
+</includes>
+<slots>
+    <slot>onRestoreConfig()</slot>
+    <slot>onApplyConfig()</slot>
+    <slot>loadConfig_clicked()</slot>
+    <slot>saveConfig_clicked()</slot>
+    <slot>dataBufSize_returnPressed()</slot>
+    <slot>editSeq1_clicked()</slot>
+    <slot>editSeq2_clicked()</slot>
+    <slot>sendDataBuf_clicked()</slot>
+    <slot>resetEvan_clicked()</slot>
+    <slot>resetFifo_clicked()</slot>
+    <slot>resetRXVio_clicked()</slot>
+    <slot>mxrs7_clicked()</slot>
+    <slot>mxrs6_clicked()</slot>
+    <slot>mxrs5_clicked()</slot>
+    <slot>mxrs4_clicked()</slot>
+    <slot>mxrs3_clicked()</slot>
+    <slot>mxrs2_clicked()</slot>
+    <slot>mxrs1_clicked()</slot>
+    <slot>mxrs0_clicked()</slot>
+    <slot>sendSwEvent_clicked()</slot>
+    <slot>mxcTable_valueChanged( int, int )</slot>
+    <slot>triggerSeq2_clicked()</slot>
+    <slot>triggerSeq1_clicked()</slot>
+</slots>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

@@ -1,0 +1,764 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>EventReceiverForm</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>EventReceiverForm</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>816</width>
+            <height>484</height>
+        </rect>
+    </property>
+    <property name="sizePolicy">
+        <sizepolicy>
+            <hsizetype>1</hsizetype>
+            <vsizetype>1</vsizetype>
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+        </sizepolicy>
+    </property>
+    <property name="caption">
+        <string>Event Receiver</string>
+    </property>
+    <hbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout20</cstring>
+            </property>
+            <vbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QGroupBox">
+                    <property name="name">
+                        <cstring>groupBox6</cstring>
+                    </property>
+                    <property name="title">
+                        <string>Interrupts</string>
+                    </property>
+                    <vbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QCheckBox">
+                            <property name="name">
+                                <cstring>irqMasterEnable</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Enable</string>
+                            </property>
+                        </widget>
+                        <widget class="QCheckBox">
+                            <property name="name">
+                                <cstring>irqViolation</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Violation</string>
+                            </property>
+                        </widget>
+                        <widget class="QCheckBox">
+                            <property name="name">
+                                <cstring>irqFifoFull</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Fifo Full</string>
+                            </property>
+                        </widget>
+                        <widget class="QCheckBox">
+                            <property name="name">
+                                <cstring>irqHeartBeat</cstring>
+                            </property>
+                            <property name="text">
+                                <string>HeartBeat</string>
+                            </property>
+                        </widget>
+                        <widget class="QCheckBox">
+                            <property name="name">
+                                <cstring>irqEvent</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Event?</string>
+                            </property>
+                        </widget>
+                        <widget class="QCheckBox">
+                            <property name="name">
+                                <cstring>irqPulse</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Pulse master (see pulses)</string>
+                            </property>
+                        </widget>
+                        <widget class="QCheckBox">
+                            <property name="name">
+                                <cstring>irqDataBuf</cstring>
+                            </property>
+                            <property name="text">
+                                <string>data buffer?</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton">
+                            <property name="name">
+                                <cstring>clearInterrupts</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Clear</string>
+                            </property>
+                        </widget>
+                    </vbox>
+                </widget>
+                <widget class="QGroupBox">
+                    <property name="name">
+                        <cstring>groupBox9</cstring>
+                    </property>
+                    <property name="title">
+                        <string>Front Panel Univ Out</string>
+                    </property>
+                    <grid>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QComboBox" row="1" column="0">
+                            <property name="name">
+                                <cstring>fp0</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox" row="1" column="1">
+                            <property name="name">
+                                <cstring>fp1</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox" row="2" column="0">
+                            <property name="name">
+                                <cstring>fp2</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox" row="2" column="1">
+                            <property name="name">
+                                <cstring>fp3</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox" row="3" column="0">
+                            <property name="name">
+                                <cstring>fp4</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox" row="3" column="1">
+                            <property name="name">
+                                <cstring>fp5</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox" row="4" column="0">
+                            <property name="name">
+                                <cstring>fp6</cstring>
+                            </property>
+                        </widget>
+			<widget class="QComboBox" row="4" column="1">
+                            <property name="name">
+                                <cstring>fp7</cstring>
+                            </property>
+                        </widget>
+			<widget class="QComboBox" row="5" column="0">
+                            <property name="name">
+                                <cstring>fp8</cstring>
+                            </property>
+                        </widget>
+			<widget class="QComboBox" row="5" column="1">
+                            <property name="name">
+                                <cstring>fp9</cstring>
+                            </property>
+                        </widget>
+			<widget class="QComboBox" row="6" column="0">
+                            <property name="name">
+                                <cstring>fp10</cstring>
+                            </property>
+                        </widget>
+			<widget class="QComboBox" row="6" column="1">
+                            <property name="name">
+                                <cstring>fp11</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="0" column="0" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>textLabel2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>STDDLY(0,1,2,3,4,5,6,7),FINEDLY(8,9,10,11)</string>
+                            </property>
+                        </widget>
+                    </grid>
+                </widget>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout16</cstring>
+                    </property>
+                    <grid>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLineEdit" row="0" column="1">
+                            <property name="name">
+                                <cstring>evcountPresc</cstring>
+                            </property>
+                            <property name="enabled">
+                                <bool>false</bool>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="0" column="0">
+                            <property name="name">
+                                <cstring>textLabel5</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Event Counter Presc</string>
+                            </property>
+                            <property name="buddy" stdset="0">
+                                <cstring>lineEdit4</cstring>
+                            </property>
+                        </widget>
+                    </grid>
+                </widget>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout24</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel4</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Event Clock[RF]</string>
+                            </property>
+                            <property name="buddy" stdset="0">
+                                <cstring>comboBox11</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox">
+                            <property name="name">
+                                <cstring>ckSynthesiser</cstring>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+            </vbox>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout13</cstring>
+            </property>
+            <vbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QGroupBox">
+                    <property name="name">
+                        <cstring>groupBox18</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>1</hsizetype>
+                            <vsizetype>0</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="title">
+                        <string>Prescalers</string>
+                    </property>
+                    <grid>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QTable" row="0" column="0">
+                            <column>
+                                <property name="text">
+                                    <string>Prescaler</string>
+                                </property>
+                            </column>
+                            <row>
+                                <property name="text">
+                                    <string>0</string>
+                                </property>
+                            </row>
+                            <row>
+                                <property name="text">
+                                    <string>1</string>
+                                </property>
+                            </row>
+                            <row>
+                                <property name="text">
+                                    <string>2</string>
+                                </property>
+                            </row>
+                            <row>
+                                <property name="text">
+                                    <string>3</string>
+                                </property>
+                            </row>
+                            <property name="name">
+                                <cstring>prescalerOutputs</cstring>
+                            </property>
+                            <property name="numRows">
+                                <number>4</number>
+                            </property>
+                            <property name="numCols">
+                                <number>1</number>
+                            </property>
+                        </widget>
+                    </grid>
+                </widget>
+                <widget class="QGroupBox">
+                    <property name="name">
+                        <cstring>groupBox3</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>1</hsizetype>
+                            <vsizetype>1</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="title">
+                        <string>Pulses</string>
+                    </property>
+                    <vbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QListView">
+                            <column>
+                                <property name="text">
+                                    <string>id</string>
+                                </property>
+                                <property name="clickable">
+                                    <bool>false</bool>
+                                </property>
+                                <property name="resizable">
+                                    <bool>false</bool>
+                                </property>
+                            </column>
+                            <column>
+                                <property name="text">
+                                    <string>eitscp</string>
+                                </property>
+                                <property name="clickable">
+                                    <bool>false</bool>
+                                </property>
+                                <property name="resizable">
+                                    <bool>false</bool>
+                                </property>
+                            </column>
+                            <column>
+                                <property name="text">
+                                    <string>Delay</string>
+                                </property>
+                                <property name="clickable">
+                                    <bool>false</bool>
+                                </property>
+                                <property name="resizable">
+                                    <bool>false</bool>
+                                </property>
+                            </column>
+                            <column>
+                                <property name="text">
+                                    <string>Width</string>
+                                </property>
+                                <property name="clickable">
+                                    <bool>false</bool>
+                                </property>
+                                <property name="resizable">
+                                    <bool>false</bool>
+                                </property>
+                            </column>
+                            <column>
+                                <property name="text">
+                                    <string>Prescaler</string>
+                                </property>
+                                <property name="clickable">
+                                    <bool>false</bool>
+                                </property>
+                                <property name="resizable">
+                                    <bool>false</bool>
+                                </property>
+                            </column>
+                            <property name="name">
+                                <cstring>listPulse</cstring>
+                            </property>
+                            <property name="font">
+                                <font>
+                                    <family>Courier</family>
+                                </font>
+                            </property>
+                        </widget>
+                    </vbox>
+                </widget>
+            </vbox>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout11</cstring>
+            </property>
+            <vbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QGroupBox">
+                    <property name="name">
+                        <cstring>groupBox7</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>1</hsizetype>
+                            <vsizetype>1</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="title">
+                        <string>Ram</string>
+                    </property>
+                    <vbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLayoutWidget">
+                            <property name="name">
+                                <cstring>layout7</cstring>
+                            </property>
+                            <hbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <widget class="QComboBox">
+                                    <item>
+                                        <property name="text">
+                                            <string>Ram 1</string>
+                                        </property>
+                                    </item>
+                                    <item>
+                                        <property name="text">
+                                            <string>Ram 2</string>
+                                        </property>
+                                    </item>
+                                    <property name="name">
+                                        <cstring>ramSel</cstring>
+                                    </property>
+                                </widget>
+                                <widget class="QCheckBox">
+                                    <property name="name">
+                                        <cstring>ramEnable</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>enable</string>
+                                    </property>
+                                </widget>
+                            </hbox>
+                        </widget>
+                        <widget class="QLayoutWidget">
+                            <property name="name">
+                                <cstring>layout21</cstring>
+                            </property>
+                            <hbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <widget class="QLineEdit">
+                                    <property name="name">
+                                        <cstring>ramEvent</cstring>
+                                    </property>
+                                </widget>
+                                <widget class="QPushButton">
+                                    <property name="name">
+                                        <cstring>ramMod</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>+</string>
+                                    </property>
+                                </widget>
+                                <widget class="QPushButton">
+                                    <property name="name">
+                                        <cstring>ramDel</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>-</string>
+                                    </property>
+                                </widget>
+                            </hbox>
+                        </widget>
+                        <widget class="QListView">
+                            <column>
+                                <property name="text">
+                                    <string>Event</string>
+                                </property>
+                                <property name="clickable">
+                                    <bool>false</bool>
+                                </property>
+                                <property name="resizable">
+                                    <bool>true</bool>
+                                </property>
+                            </column>
+                            <property name="name">
+                                <cstring>ramList</cstring>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy>
+                                    <hsizetype>7</hsizetype>
+                                    <vsizetype>7</vsizetype>
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="font">
+                                <font>
+                                    <family>Courier</family>
+                                </font>
+                            </property>
+                        </widget>
+                        <widget class="QLayoutWidget">
+                            <property name="name">
+                                <cstring>layout19</cstring>
+                            </property>
+                            <hbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <spacer>
+                                    <property name="name">
+                                        <cstring>spacer4</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Horizontal</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Expanding</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>81</width>
+                                            <height>21</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                                <widget class="QPushButton">
+                                    <property name="name">
+                                        <cstring>ramClear</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>Clear</string>
+                                    </property>
+                                </widget>
+                            </hbox>
+                        </widget>
+                    </vbox>
+                </widget>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout10</cstring>
+                    </property>
+                    <grid>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QPushButton" row="0" column="2">
+                            <property name="name">
+                                <cstring>restoreConfig</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Restore</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton" row="1" column="1">
+                            <property name="name">
+                                <cstring>saveConfig</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Save</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton" row="1" column="2">
+                            <property name="name">
+                                <cstring>applyConfig</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Apply</string>
+                            </property>
+                        </widget>
+                        <widget class="QCheckBox" row="1" column="0">
+                            <property name="name">
+                                <cstring>masterEnable</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Enable</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton" row="0" column="1">
+                            <property name="name">
+                                <cstring>loadConfig</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Load</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton" row="0" column="0">
+                            <property name="name">
+                                <cstring>setDefaultBt</cstring>
+                            </property>
+                            <property name="enabled">
+                                <bool>false</bool>
+                            </property>
+                            <property name="text">
+                                <string>Set As Default</string>
+                            </property>
+                        </widget>
+                    </grid>
+                </widget>
+            </vbox>
+        </widget>
+    </hbox>
+</widget>
+<connections>
+    <connection>
+        <sender>ramList</sender>
+        <signal>clicked(QListViewItem*)</signal>
+        <receiver>EventReceiverForm</receiver>
+        <slot>ramList_clicked(QListViewItem*)</slot>
+    </connection>
+    <connection>
+        <sender>ramList</sender>
+        <signal>doubleClicked(QListViewItem*)</signal>
+        <receiver>EventReceiverForm</receiver>
+        <slot>ramList_doubleClicked(QListViewItem*)</slot>
+    </connection>
+    <connection>
+        <sender>ramEnable</sender>
+        <signal>toggled(bool)</signal>
+        <receiver>EventReceiverForm</receiver>
+        <slot>ramEnable_toggled(bool)</slot>
+    </connection>
+    <connection>
+        <sender>ramMod</sender>
+        <signal>clicked()</signal>
+        <receiver>EventReceiverForm</receiver>
+        <slot>ramMod_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>ramDel</sender>
+        <signal>clicked()</signal>
+        <receiver>EventReceiverForm</receiver>
+        <slot>ramDel_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>ramClear</sender>
+        <signal>clicked()</signal>
+        <receiver>EventReceiverForm</receiver>
+        <slot>ramClear_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>ramSel</sender>
+        <signal>activated(int)</signal>
+        <receiver>EventReceiverForm</receiver>
+        <slot>ramSel_activated(int)</slot>
+    </connection>
+    <connection>
+        <sender>listPulse</sender>
+        <signal>doubleClicked(QListViewItem*)</signal>
+        <receiver>EventReceiverForm</receiver>
+        <slot>listPulse_doubleClicked(QListViewItem*)</slot>
+    </connection>
+    <connection>
+        <sender>restoreConfig</sender>
+        <signal>clicked()</signal>
+        <receiver>EventReceiverForm</receiver>
+        <slot>onRestoreConfig()</slot>
+    </connection>
+    <connection>
+        <sender>loadConfig</sender>
+        <signal>clicked()</signal>
+        <receiver>EventReceiverForm</receiver>
+        <slot>loadConfig_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>saveConfig</sender>
+        <signal>clicked()</signal>
+        <receiver>EventReceiverForm</receiver>
+        <slot>saveConfig_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>applyConfig</sender>
+        <signal>clicked()</signal>
+        <receiver>EventReceiverForm</receiver>
+        <slot>onApplyConfig()</slot>
+    </connection>
+    <connection>
+        <sender>setDefaultBt</sender>
+        <signal>clicked()</signal>
+        <receiver>EventReceiverForm</receiver>
+        <slot>onSetConfigAsDefault()</slot>
+    </connection>
+    <connection>
+        <sender>ramEvent</sender>
+        <signal>returnPressed()</signal>
+        <receiver>EventReceiverForm</receiver>
+        <slot>ramMod_clicked()</slot>
+    </connection>
+    <connection>
+	    <sender>clearInterrupts</sender>
+            <signal>clicked()</signal>
+            <receiver>EventReceiverForm</receiver>
+	    <slot>clearInterrupts_clicked()</slot>
+    </connection>
+</connections>
+<tabstops>
+    <tabstop>ramEnable</tabstop>
+    <tabstop>ramEvent</tabstop>
+    <tabstop>ramMod</tabstop>
+    <tabstop>ramList</tabstop>
+    <tabstop>ramClear</tabstop>
+    <tabstop>listPulse</tabstop>
+    <tabstop>ckSynthesiser</tabstop>
+    <tabstop>evcountPresc</tabstop>
+    <tabstop>irqMasterEnable</tabstop>
+    <tabstop>irqViolation</tabstop>
+    <tabstop>irqHeartBeat</tabstop>
+    <tabstop>irqFifoFull</tabstop>
+    <tabstop>irqEvent</tabstop>
+    <tabstop>fp0</tabstop>
+    <tabstop>fp1</tabstop>
+    <tabstop>fp2</tabstop>
+    <tabstop>fp3</tabstop>
+    <tabstop>fp4</tabstop>
+    <tabstop>fp5</tabstop>
+    <tabstop>fp6</tabstop>
+</tabstops>
+<includes>
+    <include location="local" impldecl="in implementation">eventreceiverform.ui.h</include>
+</includes>
+<slots>
+    <slot>ramList_clicked( QListViewItem * )</slot>
+    <slot>ramList_doubleClicked( QListViewItem * )</slot>
+    <slot>ramEnable_toggled( bool )</slot>
+    <slot>ramMod_clicked()</slot>
+    <slot>ramDel_clicked()</slot>
+    <slot>ramClear_clicked()</slot>
+    <slot>ramSel_activated( int )</slot>
+    <slot>listPulse_doubleClicked( QListViewItem * )</slot>
+    <slot>loadConfig_clicked()</slot>
+    <slot>onRestoreConfig()</slot>
+    <slot>onApplyConfig()</slot>
+    <slot>saveConfig_clicked()</slot>
+    <slot>statusUpdate_clicked()</slot>
+    <slot>statusViolation_clicked()</slot>
+    <slot>onSetConfigAsDefault()</slot>
+    <slot>clearInterrupts_clicked()</slot>
+</slots>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

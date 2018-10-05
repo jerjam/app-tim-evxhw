@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+if [ $# != 1 ];
+then
+ echo Parameter needed: The name of the test
+ exit
+fi
+
+
+(echo from aux import '*' > ./test_file) && \
+ ( (cat test/$1.py >> ./test_file) &&\
+   (python ./test_file) && rm test_file ) || (rm test_file) 
+
+
+
+

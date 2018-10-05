@@ -1,0 +1,15 @@
+.DS_Store
+*.swp
+*~
+\#*#
+.#*
+\#*
+*fasl
+*aux
+*log
+*pyc
+._*
+build
+dist
+python_*
+*.tar.gz

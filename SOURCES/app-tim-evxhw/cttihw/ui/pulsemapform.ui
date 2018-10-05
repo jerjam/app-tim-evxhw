@@ -1,0 +1,1295 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>PulseMapForm</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>PulseMapForm</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>524</width>
+            <height>395</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Pulse Map</string>
+    </property>
+    <vbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QGroupBox">
+            <property name="name">
+                <cstring>triggers</cstring>
+            </property>
+            <property name="title">
+                <string>Trigger</string>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="spacing">
+                    <number>0</number>
+                </property>
+                <widget class="QPushButton" row="2" column="3">
+                    <property name="name">
+                        <cstring>trig_25</cstring>
+                    </property>
+                    <property name="text">
+                        <string>25</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="2">
+                    <property name="name">
+                        <cstring>trig_2</cstring>
+                    </property>
+                    <property name="text">
+                        <string>2</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="7">
+                    <property name="name">
+                        <cstring>trig_18</cstring>
+                    </property>
+                    <property name="text">
+                        <string>18</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="6">
+                    <property name="name">
+                        <cstring>trig_6</cstring>
+                    </property>
+                    <property name="text">
+                        <string>6</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="4">
+                    <property name="name">
+                        <cstring>trig_4</cstring>
+                    </property>
+                    <property name="text">
+                        <string>4</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="0">
+                    <property name="name">
+                        <cstring>trig_11</cstring>
+                    </property>
+                    <property name="text">
+                        <string>11</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="6">
+                    <property name="name">
+                        <cstring>trig_17</cstring>
+                    </property>
+                    <property name="text">
+                        <string>17</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="5">
+                    <property name="name">
+                        <cstring>trig_5</cstring>
+                    </property>
+                    <property name="text">
+                        <string>5</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="10">
+                    <property name="name">
+                        <cstring>trig_21</cstring>
+                    </property>
+                    <property name="text">
+                        <string>21</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="5">
+                    <property name="name">
+                        <cstring>trig_16</cstring>
+                    </property>
+                    <property name="text">
+                        <string>16</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="9">
+                    <property name="name">
+                        <cstring>trig_20</cstring>
+                    </property>
+                    <property name="text">
+                        <string>20</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="8">
+                    <property name="name">
+                        <cstring>trig_8</cstring>
+                    </property>
+                    <property name="text">
+                        <string>8</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="1">
+                    <property name="name">
+                        <cstring>trig_12</cstring>
+                    </property>
+                    <property name="text">
+                        <string>12</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="9">
+                    <property name="name">
+                        <cstring>trig_9</cstring>
+                    </property>
+                    <property name="text">
+                        <string>9</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="2" column="5">
+                    <property name="name">
+                        <cstring>trig_27</cstring>
+                    </property>
+                    <property name="text">
+                        <string>27</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="2">
+                    <property name="name">
+                        <cstring>trig_13</cstring>
+                    </property>
+                    <property name="text">
+                        <string>13</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="2" column="0">
+                    <property name="name">
+                        <cstring>trig_22</cstring>
+                    </property>
+                    <property name="text">
+                        <string>22</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="4">
+                    <property name="name">
+                        <cstring>trig_15</cstring>
+                    </property>
+                    <property name="text">
+                        <string>15</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="7">
+                    <property name="name">
+                        <cstring>trig_7</cstring>
+                    </property>
+                    <property name="text">
+                        <string>7</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="1">
+                    <property name="name">
+                        <cstring>trig_1</cstring>
+                    </property>
+                    <property name="text">
+                        <string>1</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="2" column="7">
+                    <property name="name">
+                        <cstring>trig_29</cstring>
+                    </property>
+                    <property name="text">
+                        <string>29</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="3">
+                    <property name="name">
+                        <cstring>trig_14</cstring>
+                    </property>
+                    <property name="text">
+                        <string>14</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="8">
+                    <property name="name">
+                        <cstring>trig_19</cstring>
+                    </property>
+                    <property name="text">
+                        <string>19</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="2" column="8">
+                    <property name="name">
+                        <cstring>trig_30</cstring>
+                    </property>
+                    <property name="text">
+                        <string>30</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="2" column="1">
+                    <property name="name">
+                        <cstring>trig_23</cstring>
+                    </property>
+                    <property name="text">
+                        <string>23</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="2" column="9">
+                    <property name="name">
+                        <cstring>trig_31</cstring>
+                    </property>
+                    <property name="text">
+                        <string>31</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="2" column="2">
+                    <property name="name">
+                        <cstring>trig_24</cstring>
+                    </property>
+                    <property name="text">
+                        <string>24</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="2" column="6">
+                    <property name="name">
+                        <cstring>trig_28</cstring>
+                    </property>
+                    <property name="text">
+                        <string>28</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="2" column="4">
+                    <property name="name">
+                        <cstring>trig_26</cstring>
+                    </property>
+                    <property name="text">
+                        <string>26</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="3">
+                    <property name="name">
+                        <cstring>trig_3</cstring>
+                    </property>
+                    <property name="text">
+                        <string>3</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="0">
+                    <property name="name">
+                        <cstring>trig_0</cstring>
+                    </property>
+                    <property name="text">
+                        <string>0</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="10">
+                    <property name="name">
+                        <cstring>trig_10</cstring>
+                    </property>
+                    <property name="text">
+                        <string>10</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+            </grid>
+        </widget>
+        <widget class="QGroupBox">
+            <property name="name">
+                <cstring>set</cstring>
+            </property>
+            <property name="title">
+                <string>Set</string>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="spacing">
+                    <number>0</number>
+                </property>
+                <widget class="QPushButton" row="2" column="3">
+                    <property name="name">
+                        <cstring>set_25</cstring>
+                    </property>
+                    <property name="text">
+                        <string>25</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="2">
+                    <property name="name">
+                        <cstring>set_2</cstring>
+                    </property>
+                    <property name="text">
+                        <string>2</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="7">
+                    <property name="name">
+                        <cstring>set_18</cstring>
+                    </property>
+                    <property name="text">
+                        <string>18</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="6">
+                    <property name="name">
+                        <cstring>set_6</cstring>
+                    </property>
+                    <property name="text">
+                        <string>6</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="4">
+                    <property name="name">
+                        <cstring>set_4</cstring>
+                    </property>
+                    <property name="text">
+                        <string>4</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="0">
+                    <property name="name">
+                        <cstring>set_11</cstring>
+                    </property>
+                    <property name="text">
+                        <string>11</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="6">
+                    <property name="name">
+                        <cstring>set_17</cstring>
+                    </property>
+                    <property name="text">
+                        <string>17</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="5">
+                    <property name="name">
+                        <cstring>set_5</cstring>
+                    </property>
+                    <property name="text">
+                        <string>5</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="10">
+                    <property name="name">
+                        <cstring>set_21</cstring>
+                    </property>
+                    <property name="text">
+                        <string>21</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="5">
+                    <property name="name">
+                        <cstring>set_16</cstring>
+                    </property>
+                    <property name="text">
+                        <string>16</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="9">
+                    <property name="name">
+                        <cstring>set_20</cstring>
+                    </property>
+                    <property name="text">
+                        <string>20</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="8">
+                    <property name="name">
+                        <cstring>set_8</cstring>
+                    </property>
+                    <property name="text">
+                        <string>8</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="1">
+                    <property name="name">
+                        <cstring>set_12</cstring>
+                    </property>
+                    <property name="text">
+                        <string>12</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="9">
+                    <property name="name">
+                        <cstring>set_9</cstring>
+                    </property>
+                    <property name="text">
+                        <string>9</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="2" column="5">
+                    <property name="name">
+                        <cstring>set_27</cstring>
+                    </property>
+                    <property name="text">
+                        <string>27</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="2">
+                    <property name="name">
+                        <cstring>set_13</cstring>
+                    </property>
+                    <property name="text">
+                        <string>13</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="2" column="0">
+                    <property name="name">
+                        <cstring>set_22</cstring>
+                    </property>
+                    <property name="text">
+                        <string>22</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="4">
+                    <property name="name">
+                        <cstring>set_15</cstring>
+                    </property>
+                    <property name="text">
+                        <string>15</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="7">
+                    <property name="name">
+                        <cstring>set_7</cstring>
+                    </property>
+                    <property name="text">
+                        <string>7</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="1">
+                    <property name="name">
+                        <cstring>set_1</cstring>
+                    </property>
+                    <property name="text">
+                        <string>1</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="2" column="7">
+                    <property name="name">
+                        <cstring>set_29</cstring>
+                    </property>
+                    <property name="text">
+                        <string>29</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="3">
+                    <property name="name">
+                        <cstring>set_14</cstring>
+                    </property>
+                    <property name="text">
+                        <string>14</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="8">
+                    <property name="name">
+                        <cstring>set_19</cstring>
+                    </property>
+                    <property name="text">
+                        <string>19</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="2" column="8">
+                    <property name="name">
+                        <cstring>set_30</cstring>
+                    </property>
+                    <property name="text">
+                        <string>30</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="2" column="1">
+                    <property name="name">
+                        <cstring>set_23</cstring>
+                    </property>
+                    <property name="text">
+                        <string>23</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="2" column="9">
+                    <property name="name">
+                        <cstring>set_31</cstring>
+                    </property>
+                    <property name="text">
+                        <string>31</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="2" column="2">
+                    <property name="name">
+                        <cstring>set_24</cstring>
+                    </property>
+                    <property name="text">
+                        <string>24</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="2" column="6">
+                    <property name="name">
+                        <cstring>set_28</cstring>
+                    </property>
+                    <property name="text">
+                        <string>28</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="2" column="4">
+                    <property name="name">
+                        <cstring>set_26</cstring>
+                    </property>
+                    <property name="text">
+                        <string>26</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="3">
+                    <property name="name">
+                        <cstring>set_3</cstring>
+                    </property>
+                    <property name="text">
+                        <string>3</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="0">
+                    <property name="name">
+                        <cstring>set_0</cstring>
+                    </property>
+                    <property name="text">
+                        <string>0</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="10">
+                    <property name="name">
+                        <cstring>set_10</cstring>
+                    </property>
+                    <property name="text">
+                        <string>10</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+            </grid>
+        </widget>
+        <widget class="QGroupBox">
+            <property name="name">
+                <cstring>clear</cstring>
+            </property>
+            <property name="title">
+                <string>Clear</string>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="spacing">
+                    <number>0</number>
+                </property>
+                <widget class="QPushButton" row="2" column="3">
+                    <property name="name">
+                        <cstring>clear_25</cstring>
+                    </property>
+                    <property name="text">
+                        <string>25</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="2">
+                    <property name="name">
+                        <cstring>clear_2</cstring>
+                    </property>
+                    <property name="text">
+                        <string>2</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="7">
+                    <property name="name">
+                        <cstring>clear_18</cstring>
+                    </property>
+                    <property name="text">
+                        <string>18</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="6">
+                    <property name="name">
+                        <cstring>clear_6</cstring>
+                    </property>
+                    <property name="text">
+                        <string>6</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="4">
+                    <property name="name">
+                        <cstring>clear_4</cstring>
+                    </property>
+                    <property name="text">
+                        <string>4</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="0">
+                    <property name="name">
+                        <cstring>clear_11</cstring>
+                    </property>
+                    <property name="text">
+                        <string>11</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="6">
+                    <property name="name">
+                        <cstring>clear_17</cstring>
+                    </property>
+                    <property name="text">
+                        <string>17</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="5">
+                    <property name="name">
+                        <cstring>clear_5</cstring>
+                    </property>
+                    <property name="text">
+                        <string>5</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="10">
+                    <property name="name">
+                        <cstring>clear_21</cstring>
+                    </property>
+                    <property name="text">
+                        <string>21</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="5">
+                    <property name="name">
+                        <cstring>clear_16</cstring>
+                    </property>
+                    <property name="text">
+                        <string>16</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="9">
+                    <property name="name">
+                        <cstring>clear_20</cstring>
+                    </property>
+                    <property name="text">
+                        <string>20</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="8">
+                    <property name="name">
+                        <cstring>clear_8</cstring>
+                    </property>
+                    <property name="text">
+                        <string>8</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="1">
+                    <property name="name">
+                        <cstring>clear_12</cstring>
+                    </property>
+                    <property name="text">
+                        <string>12</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="9">
+                    <property name="name">
+                        <cstring>clear_9</cstring>
+                    </property>
+                    <property name="text">
+                        <string>9</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="2" column="5">
+                    <property name="name">
+                        <cstring>clear_27</cstring>
+                    </property>
+                    <property name="text">
+                        <string>27</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="2">
+                    <property name="name">
+                        <cstring>clear_13</cstring>
+                    </property>
+                    <property name="text">
+                        <string>13</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="2" column="0">
+                    <property name="name">
+                        <cstring>clear_22</cstring>
+                    </property>
+                    <property name="text">
+                        <string>22</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="4">
+                    <property name="name">
+                        <cstring>clear_15</cstring>
+                    </property>
+                    <property name="text">
+                        <string>15</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="7">
+                    <property name="name">
+                        <cstring>clear_7</cstring>
+                    </property>
+                    <property name="text">
+                        <string>7</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="1">
+                    <property name="name">
+                        <cstring>clear_1</cstring>
+                    </property>
+                    <property name="text">
+                        <string>1</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="2" column="7">
+                    <property name="name">
+                        <cstring>clear_29</cstring>
+                    </property>
+                    <property name="text">
+                        <string>29</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="3">
+                    <property name="name">
+                        <cstring>clear_14</cstring>
+                    </property>
+                    <property name="text">
+                        <string>14</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="1" column="8">
+                    <property name="name">
+                        <cstring>clear_19</cstring>
+                    </property>
+                    <property name="text">
+                        <string>19</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="2" column="8">
+                    <property name="name">
+                        <cstring>clear_30</cstring>
+                    </property>
+                    <property name="text">
+                        <string>30</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="2" column="1">
+                    <property name="name">
+                        <cstring>clear_23</cstring>
+                    </property>
+                    <property name="text">
+                        <string>23</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="2" column="9">
+                    <property name="name">
+                        <cstring>clear_31</cstring>
+                    </property>
+                    <property name="text">
+                        <string>31</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="2" column="2">
+                    <property name="name">
+                        <cstring>clear_24</cstring>
+                    </property>
+                    <property name="text">
+                        <string>24</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="2" column="6">
+                    <property name="name">
+                        <cstring>clear_28</cstring>
+                    </property>
+                    <property name="text">
+                        <string>28</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="2" column="4">
+                    <property name="name">
+                        <cstring>clear_26</cstring>
+                    </property>
+                    <property name="text">
+                        <string>26</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="3">
+                    <property name="name">
+                        <cstring>clear_3</cstring>
+                    </property>
+                    <property name="text">
+                        <string>3</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="0">
+                    <property name="name">
+                        <cstring>clear_0</cstring>
+                    </property>
+                    <property name="text">
+                        <string>0</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="0" column="10">
+                    <property name="name">
+                        <cstring>clear_10</cstring>
+                    </property>
+                    <property name="text">
+                        <string>10</string>
+                    </property>
+                    <property name="toggleButton">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+            </grid>
+        </widget>
+        <widget class="QCheckBox">
+            <property name="name">
+                <cstring>led_event</cstring>
+            </property>
+            <property name="text">
+                <string>Led event</string>
+            </property>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout16</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer3</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>221</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>btCancel</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Cancel</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>btOK</cstring>
+                    </property>
+                    <property name="text">
+                        <string>OK</string>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+    </vbox>
+</widget>
+<connections>
+    <connection>
+        <sender>btOK</sender>
+        <signal>clicked()</signal>
+        <receiver>PulseMapForm</receiver>
+        <slot>accept()</slot>
+    </connection>
+    <connection>
+        <sender>btCancel</sender>
+        <signal>clicked()</signal>
+        <receiver>PulseMapForm</receiver>
+        <slot>reject()</slot>
+    </connection>
+</connections>
+<tabstops>
+    <tabstop>btCancel</tabstop>
+    <tabstop>btOK</tabstop>
+    <tabstop>trig_0</tabstop>
+    <tabstop>trig_1</tabstop>
+    <tabstop>trig_2</tabstop>
+    <tabstop>trig_3</tabstop>
+    <tabstop>trig_4</tabstop>
+    <tabstop>trig_5</tabstop>
+    <tabstop>trig_6</tabstop>
+    <tabstop>trig_7</tabstop>
+    <tabstop>trig_8</tabstop>
+    <tabstop>trig_9</tabstop>
+    <tabstop>trig_10</tabstop>
+    <tabstop>trig_11</tabstop>
+    <tabstop>trig_12</tabstop>
+    <tabstop>trig_13</tabstop>
+    <tabstop>trig_14</tabstop>
+    <tabstop>trig_15</tabstop>
+    <tabstop>trig_16</tabstop>
+    <tabstop>trig_17</tabstop>
+    <tabstop>trig_18</tabstop>
+    <tabstop>trig_19</tabstop>
+    <tabstop>trig_20</tabstop>
+    <tabstop>trig_21</tabstop>
+    <tabstop>trig_22</tabstop>
+    <tabstop>trig_23</tabstop>
+    <tabstop>trig_24</tabstop>
+    <tabstop>trig_25</tabstop>
+    <tabstop>trig_26</tabstop>
+    <tabstop>trig_27</tabstop>
+    <tabstop>trig_28</tabstop>
+    <tabstop>trig_29</tabstop>
+    <tabstop>trig_30</tabstop>
+    <tabstop>trig_31</tabstop>
+    <tabstop>set_0</tabstop>
+    <tabstop>set_1</tabstop>
+    <tabstop>set_2</tabstop>
+    <tabstop>set_3</tabstop>
+    <tabstop>set_4</tabstop>
+    <tabstop>set_5</tabstop>
+    <tabstop>set_6</tabstop>
+    <tabstop>set_7</tabstop>
+    <tabstop>set_8</tabstop>
+    <tabstop>set_9</tabstop>
+    <tabstop>set_10</tabstop>
+    <tabstop>set_11</tabstop>
+    <tabstop>set_12</tabstop>
+    <tabstop>set_13</tabstop>
+    <tabstop>set_14</tabstop>
+    <tabstop>set_15</tabstop>
+    <tabstop>set_16</tabstop>
+    <tabstop>set_17</tabstop>
+    <tabstop>set_18</tabstop>
+    <tabstop>set_19</tabstop>
+    <tabstop>set_20</tabstop>
+    <tabstop>set_21</tabstop>
+    <tabstop>set_22</tabstop>
+    <tabstop>set_23</tabstop>
+    <tabstop>set_24</tabstop>
+    <tabstop>set_25</tabstop>
+    <tabstop>set_26</tabstop>
+    <tabstop>set_27</tabstop>
+    <tabstop>set_28</tabstop>
+    <tabstop>set_29</tabstop>
+    <tabstop>set_30</tabstop>
+    <tabstop>set_31</tabstop>
+    <tabstop>clear_0</tabstop>
+    <tabstop>clear_1</tabstop>
+    <tabstop>clear_2</tabstop>
+    <tabstop>clear_3</tabstop>
+    <tabstop>clear_4</tabstop>
+    <tabstop>clear_5</tabstop>
+    <tabstop>clear_6</tabstop>
+    <tabstop>clear_7</tabstop>
+    <tabstop>clear_8</tabstop>
+    <tabstop>clear_9</tabstop>
+    <tabstop>clear_10</tabstop>
+    <tabstop>clear_11</tabstop>
+    <tabstop>clear_12</tabstop>
+    <tabstop>clear_13</tabstop>
+    <tabstop>clear_14</tabstop>
+    <tabstop>clear_15</tabstop>
+    <tabstop>clear_16</tabstop>
+    <tabstop>clear_17</tabstop>
+    <tabstop>clear_18</tabstop>
+    <tabstop>clear_19</tabstop>
+    <tabstop>clear_20</tabstop>
+    <tabstop>clear_21</tabstop>
+    <tabstop>clear_22</tabstop>
+    <tabstop>clear_23</tabstop>
+    <tabstop>clear_24</tabstop>
+    <tabstop>clear_25</tabstop>
+    <tabstop>clear_26</tabstop>
+    <tabstop>clear_27</tabstop>
+    <tabstop>clear_28</tabstop>
+    <tabstop>clear_29</tabstop>
+    <tabstop>clear_30</tabstop>
+    <tabstop>clear_31</tabstop>
+    <tabstop>led_event</tabstop>
+</tabstops>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>
