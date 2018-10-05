@@ -25,7 +25,7 @@ Vendor:     MAXIV
 %(cat %{_specdir}/../README.md)
 
 %pre
-echo "PyQt rpm download site: https://github.com/jerjam/rpms-rare/raw/master/"
+echo "PyQt rpm download site: https://github.com/jerjam/rpms-rare/"
 
 %prep
 #%setup -q
