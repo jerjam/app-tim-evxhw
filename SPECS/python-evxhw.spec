@@ -1,5 +1,5 @@
-Name:       app-tim-evxhw
-Version:    1.0.0
+Name:       python-evxhw
+Version:    1.0.1
 Release:    2
 Summary:    Expert GUIs to control MRF cPCI EVG/EVR locally.
 

@@ -1,4 +1,5 @@
-PKG=app-tim-evxhw
+
+PKG=python-evxhw
 PKGDIR=$(PWD)
 
 $(info $(PKGDIR))
