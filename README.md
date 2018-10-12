@@ -9,3 +9,7 @@ It is developed to be platform intependent but the usage and tests always were d
 * Shared 32bit objects which bind the C API of EVR/EVG to python (python-libcellstimevx*.rpm)
 * numpy
 * PyQt (PyQt*.rpm)
+
+# Usage
+* evghw /dev/ega3 - {egb3, egc3, ...} - depends on the card number in the system
+* evrhw /dev/era3 - {erb3, erc3, ...} - depends on the card number in the system
